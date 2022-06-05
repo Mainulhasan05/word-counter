@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body id="body1">
+    <div id="head" class="card text-center header mb-4 container-plain">
+       <h1 class="card-body text-white">Word Counter</h1>
+    </div>
+
+    <div class="area alert alert-dark container">
+        <label for="">Enter your text/paragraph</label>
+        <textarea onkeyup="calculate()" class="form-control" name="text" id="text" cols="30" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div class="output container my-auto">
+        <h4>Word Count: <span id="word"></span> </h4>
+        <h4>Character Count: <span id="character"></span></h4>
+    </div>
+
+    <footer class="alert alert-dark text-center">
+        &copy; Mainul Hasan Rifat
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

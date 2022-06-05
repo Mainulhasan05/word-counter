@@ -1,0 +1,21 @@
+#body1{
+    background-color: #E69A8DFF;
+}
+
+#head{
+    background-color: #5F4B8BFF;
+}
+#text{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#text-border{
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: wheat;
+}
+
+.output{
+    height: 50vh;
+}
